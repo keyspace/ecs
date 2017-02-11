@@ -6,8 +6,8 @@ import six
 
 
 class Entity(object):
-    __slots__ = ("_guid",)
     """Encapsulation of a GUID to use in the entity database."""
+    __slots__ = ("_guid",)
     def __init__(self, guid):
         """:param guid: globally unique identifier
         :type guid: :class:`int`
