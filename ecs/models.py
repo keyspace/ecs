@@ -54,9 +54,6 @@ class System(object):
         """Run the system for this frame. This method is called by the system
         manager, and is where the functionality of the system is implemented.
 
-        :param entity_manager: this system's entity manager, used for
-            querying components
-        :type entity_manager: :class:`ecs.managers.EntityManager`
         :param dt: delta time, or elapsed time for this frame
         :type dt: :class:`float`
         """
